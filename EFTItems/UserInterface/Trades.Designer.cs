@@ -1,6 +1,6 @@
-﻿namespace EFTItems
+﻿namespace EFTItems.UserInterface
 {
-    partial class Hauptmenü
+    partial class Trades
     {
         /// <summary> 
         /// Erforderliche Designervariable.
@@ -28,31 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.SuspendLayout();
-            // 
-            // listView1
-            // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(0, 80);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(618, 512);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            // 
-            // Hauptmenü
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.listView1);
-            this.Name = "Hauptmenü";
-            this.Size = new System.Drawing.Size(618, 592);
-            this.ResumeLayout(false);
-
         }
 
         #endregion
-
-        private System.Windows.Forms.ListView listView1;
     }
 }

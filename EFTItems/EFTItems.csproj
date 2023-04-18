@@ -52,18 +52,36 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Hauptmenü.cs">
+    <Compile Include="UserInterface\Hideout.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Hauptmenü.Designer.cs">
+    <Compile Include="UserInterface\Hideout.Designer.cs">
+      <DependentUpon>Hideout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\Items.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterface\Items.Designer.cs">
+      <DependentUpon>Items.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\Hauptmenü.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterface\Hauptmenü.Designer.cs">
       <DependentUpon>Hauptmenü.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserInterface\Trades.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterface\Trades.Designer.cs">
+      <DependentUpon>Trades.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Hauptmenü.resx">
+    <EmbeddedResource Include="UserInterface\Hauptmenü.resx">
       <DependentUpon>Hauptmenü.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -88,5 +106,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

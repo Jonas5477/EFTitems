@@ -20,11 +20,13 @@ namespace EFTItems
 
         private void OpenHauptmenue()
         {
-            panel1.Controls.Add(new Hauptmenü());
+            panel1.Controls.Add(new Hauptmenü(this));
         }
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
+        public void ChangePanel(UserControl UserControl)
+        {
+            panel1.Controls.Clear();
+            panel1.Controls.Add((Control)UserControl);
         }
     }
 }

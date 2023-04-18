@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EFTItems
+namespace EFTItems.UserInterface
 {
-    public partial class Hauptmenü : UserControl
+    public partial class Hideout : UserControl
     {
-        public Hauptmenü()
+        public Hideout()
         {
             InitializeComponent();
         }
